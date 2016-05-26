@@ -1,0 +1,55 @@
+/*======================
+Carousel Slides
+=========================*/
+
+.image-1 {
+  background-image: url(../img/san-sebastian.jpg);
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.image-1 h1{
+  text-align: center;
+  color: rgb(158, 212, 188);
+}
+
+.image-2 {
+  background-image: url(../img/san_sab_arch.jpg);
+  background-size: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-2 h1{
+  text-align: center;
+  color: rgb(158, 212, 188);
+}
+
+.image-3 {
+  background-image: url(../img/night_life.jpg);
+  background-size: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-3 h1{
+  text-align: center;
+  color: rgb(158, 212, 188);
+}
+
+/*======================
+Carousel Indicators
+=========================*/
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-indicators .active {
+	background-color: rgb(158, 212, 188);
+}
+.carousel-indicators li {
+	border-color: rgb(158, 212, 188);
+}
